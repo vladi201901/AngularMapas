@@ -1,0 +1,29 @@
+#container{
+    width: 50%;
+    height: 300px;    
+}
+
+/* General */
+
+h2{
+    text-align: center;
+}
+#registro{
+    width: 90%;
+    height: 400px;
+    margin: 0px auto;    
+}
+.example-form{
+    width: 90%;
+    margin: 0px auto;
+}
+.input-form{
+    width: 100% !important;    
+}
+.input-form-2{
+    width: 25% !important;    
+}
+.input-form-date{
+    width: 30%;
+    margin-left: 20px !important;
+}

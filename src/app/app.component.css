@@ -1,0 +1,9 @@
+#btn-menu{      
+    text-align: right !important;    
+    margin-right: 5px;
+}
+#btn-boton{
+    background: transparent !important;
+    color: white !important;
+    border: 1px solid white;
+}

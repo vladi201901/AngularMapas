@@ -1,0 +1,32 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<mat-toolbar color="primary"> 
+  <div id="btn-menu">
+    <button mat-icon-button [matMenuTriggerFor]="menu" id="btn-boton" aria-label="Example icon-button with a menu" >
+      <mat-icon>menu</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item routerLink="/registro" (click)="toogle()">
+        <mat-icon>note_add</mat-icon>
+        <span>Registros</span>
+      </button>
+      <button mat-menu-item routerLink="/google" (click)="toogle()" >
+        <mat-icon>place</mat-icon>
+        <span>Google Maps</span>
+      </button>
+      <button mat-menu-item routerLink="/rutas" (click)="toogle()">
+        <mat-icon>directions_bike</mat-icon>
+        <span>Mis Rutas</span>
+      </button>
+      <button mat-menu-item routerLink="/open-strep-maps" (click)="toogle()">
+        <mat-icon>person_pin_circle</mat-icon>
+        <span>Open Maps</span>
+      </button>
+    </mat-menu>
+  </div>
+  <span>Mis Rutas (Mapeo)</span> 
+</mat-toolbar>
+
+<div id="componentes">
+  <router-outlet></router-outlet>
+</div>
+

@@ -1,0 +1,13 @@
+#map{
+    width: 90%;
+    height: 450px;
+    margin: 0px auto;
+    margin-top: 10px;
+}
+#indicators {
+    padding: 16px;
+    height: 40%;
+    width: 100%;
+    overflow-y: auto;
+    display: block;
+  }

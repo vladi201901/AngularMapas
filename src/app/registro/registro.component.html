@@ -1,0 +1,37 @@
+<div id="container">
+    <div id="registro">
+        <h2>Registro de Vendedor</h2>        
+        <form class="example-form">
+            <mat-form-field class="input-form">
+                <mat-label>Nombre</mat-label>
+                <input matInput placeholder="Ingrese Nombre" class="input-from" value="">                 
+            </mat-form-field>
+            <mat-form-field class="input-form">
+                <mat-label>Apellido</mat-label>
+                <input matInput placeholder="Ingrese Apellido" class="input-from" value="">                 
+            </mat-form-field>
+            <mat-form-field class="input-form-2">
+                <mat-label>Dni</mat-label>
+                <input matInput placeholder="Ingrese Dni" class="input-from" value="">                 
+            </mat-form-field>
+            
+            <mat-form-field class="input-form-date">
+                <mat-label>Fecha de Nac.</mat-label>
+                <input matInput [matDatepicker]="picker">
+                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+              </mat-form-field>
+            
+
+              
+
+                    
+            
+          </form>
+        
+          
+    </div>
+    <div id="tabla">
+
+    </div>
+</div>
